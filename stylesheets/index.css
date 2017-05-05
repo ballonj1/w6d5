@@ -1,0 +1,41 @@
+body {
+  font-family: 'Bonbon', cursive;
+  background-color: limegreen;
+}
+
+.clock {
+  background-color: yellow;
+  border: 2px solid black;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div#clock-left {
+  flex: 1;
+  flex-direction: column;
+}
+
+div#clock-right {
+  flex: 1;
+  flex-direction: column;
+}
+
+.clock h2 {
+  font-size: 30px;
+}
+
+.clock label {
+  font-size: 30px;
+}
+
+.weather {
+  background-color: skyblue;
+  border: 2px solid black;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
